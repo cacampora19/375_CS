@@ -1,3 +1,4 @@
+#This program does blah blah blah
 def main():
     metersPerSecond = eval(input("This program converts a value in meters per second to miles per hour.\nPlease enter a value in meters per second: "))
     if metersPerSecond < 0:
