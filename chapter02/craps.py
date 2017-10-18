@@ -19,7 +19,7 @@ import random
 def main():
     display_welcome()
 
-    play_again = True
+    play_again = True # Boolean- Something that is either true and false
     while play_again:
         total = roll_dice()
         if total == 7 or total == 11:
@@ -30,7 +30,7 @@ def main():
             re_roll(total)
 
         print() # Blank line for spacing
-        play_again = (input("Press enter to play another round or type 'N' to quit ") == '')
+        play_again = (input("Enter 'Y' to play again! ") == 'Y')
         clear_screen()
 
 
